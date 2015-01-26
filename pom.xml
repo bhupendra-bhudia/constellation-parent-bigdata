@@ -20,7 +20,7 @@
 
   <groupId>quedex.constellation</groupId>
   <artifactId>constellation-parent-bigdata</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <packaging>pom</packaging>
 
   <name>Quedex Constellation parent bigdata pom</name>
@@ -103,11 +103,11 @@
     <javadoc.maxmemory>1g</javadoc.maxmemory>
 
     <!-- Project-wide version specifications -->
-    <hector.core.version>1.1-4</hector.core.version>
-    <apache.thrift.version>0.9.1</apache.thrift.version>
-    <cassandra.main.version>1.2.19</cassandra.main.version>
+    <hector.core.version>2.0-0</hector.core.version>
+    <apache.thrift.version>0.9.2</apache.thrift.version>
+    <cassandra.main.version>2.1.2</cassandra.main.version>
 
-    <cloudera.version>cdh5.2.1</cloudera.version>
+    <cloudera.version>cdh5.3.1</cloudera.version>
     <hadoop.hive.version>0.13.1-${cloudera.version}</hadoop.hive.version>
     <hadoop.main.version>2.5.0-${cloudera.version}</hadoop.main.version>
   </properties>
